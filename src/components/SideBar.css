@@ -1,0 +1,25 @@
+.sidebar{
+    background:  #3f4d67;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    padding-left: 1%;
+    padding-top: 20px;
+}
+.side-link{
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
