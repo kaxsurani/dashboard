@@ -11,8 +11,8 @@ const Box = () => {
         <LuHome size={16} className="text-[#3f4d67]" />/
         <div className=" font-semibold text-[#111]">Dashboard</div>
       </div>
-      <div className="flex mt-4 gap-9">
-        <div className="w-[31%] bg-[#fbfcfc] h-[174px] rounded-lg shadow-xl transition-shadow">
+      <div className="flex mt-4 gap-10">
+        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Daily Sales</p>
             <div className="flex items-center justify-between">
@@ -24,7 +24,7 @@ const Box = () => {
             <div className="line w-[50%] h-2"></div>
           </div>
         </div>
-        <div className="w-[31%] bg-[#fbfcfc] h-[174px] rounded-lg shadow-xl transition-shadow">
+        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Monthly Sales</p>
             <div className="flex items-center justify-between">
@@ -36,7 +36,7 @@ const Box = () => {
             <div className="line1 w-[36%] h-2"></div>
           </div>
         </div>
-        <div className="w-[31%] bg-[#fbfcfc] h-[174px] rounded-lg shadow-xl transition-shadow">
+        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Yearly Sales</p>
             <div className="flex items-center justify-between">
