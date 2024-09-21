@@ -9,8 +9,9 @@ import UserGrow from "./components/UserGrow";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex gap-8 w-full h-full">
       <SideBar />
+      <div>
       <Navbar />
       <Box />
       <div className="flex">
@@ -21,6 +22,7 @@ const App = () => {
       <div className="flex items-center justify-between">
       <RatingBox />
       <UserGrow/>
+      </div>
       </div>
     </div>
   );

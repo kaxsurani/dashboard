@@ -3,7 +3,7 @@ import { IoCaretUp } from "react-icons/io5";
 
 const RatingBox = () => {
   return (
-    <div className="flex flex-col w-[41.6%]  pl-[15.5%]">
+    <div className="flex flex-col w-[41.6%]">
       <div className="w-full mt-4 bg-[#fbfbf9] h-[440px] rounded-sm shadow-xl transition-shadow border mb-12">
         <div className="ml-7 mt-4 text-[17px] text-[#000] font-normal">
           Rating

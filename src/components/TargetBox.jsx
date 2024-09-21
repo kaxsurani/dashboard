@@ -4,7 +4,7 @@ import Google from "../Assets/google.png";
 
 const TargetBox = () => {
   return (
-    <div className="mt-4 pl-[15.5%] flex flex-col gap-3">
+    <div className="mt-4 flex flex-col gap-3">
       <div className="flex mt-4 gap-10">
         <div className="w-[31%] bg-[#fbfbf9] h-[214px] rounded-sm shadow-xl transition-shadow border mb-5">
           <div className="flex items-center justify-between">

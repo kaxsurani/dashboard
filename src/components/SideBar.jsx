@@ -2,7 +2,7 @@ import Arrow from "../Assets/arrowup.jpg";
 import data from "./data";
 const SideBar = () => {
   return (
-    <div className="sidebar bg-[#3f4d67] w-[14%] h-[100vh] fixed pl-[1%] pt-[20px]">
+    <div className="sidebar bg-[#3f4d67] lg:w-[14%] h-[100vh] pl-[1%] pt-[20px] md:w-[10%]">
       <div className="shortcut-links">
         <div className="side-link flex gap-3 mb-9 cursor-pointer items-center">
           <img className="size-10 rounded-xl" src={Arrow} alt="" />

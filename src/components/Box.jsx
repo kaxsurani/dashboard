@@ -5,7 +5,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 const Box = () => {
   return (
-    <div className="mt-14 pl-[15.5%] flex flex-col gap-3">
+    <div className="mt-14 flex flex-col gap-3">
       <h5 className="text-[20px]">Dashboard</h5>
       <div className="flex gap-3 items-center">
         <LuHome size={16} className="text-[#3f4d67]" />/

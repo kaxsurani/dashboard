@@ -8,7 +8,7 @@ import { CiSettings } from "react-icons/ci";
 const Navbar = () => {
     const options = ['Action', 'Another Action', 'Something else here'];
   return (
-    <div className="flex justify-between pt-7 pl-[15.5%]">
+    <div className="flex justify-between pt-7">
       <div className="flex gap-7 items-center">
         <GoScreenFull size={18} />
         <div>
