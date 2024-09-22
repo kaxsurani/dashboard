@@ -14,7 +14,7 @@ const App = () => {
       <div>
       <Navbar />
       <Box />
-      <div className="flex">
+      <div className="flex gap-[155px]">
         <User />
         <SideBox />
       </div>

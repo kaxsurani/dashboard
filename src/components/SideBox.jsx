@@ -4,7 +4,7 @@ import { GrLocation } from "react-icons/gr";
 
 const SideBox = () => {
   return (
-    <div className="flex flex-col items-center ml-[161px] w-[500px] mt-7">
+    <div className="flex flex-col items-center w-[500px] mt-7">
       <div className="w-full bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
         <div className="flex justify-between gap-5 ml-7 mt-7">
           <h2 className="text-[18px] font-normal">Upcoming Event</h2>

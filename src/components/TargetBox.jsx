@@ -5,8 +5,8 @@ import Google from "../Assets/google.png";
 const TargetBox = () => {
   return (
     <div className="mt-4 flex flex-col gap-3">
-      <div className="flex mt-4 gap-10">
-        <div className="w-[31%] bg-[#fbfbf9] h-[214px] rounded-sm shadow-xl transition-shadow border mb-5">
+      <div className="flex mt-4 gap-8">
+        <div className="w-[33.3%] bg-[#fbfbf9] h-[214px] rounded-sm shadow-xl transition-shadow border mb-5">
           <div className="flex items-center justify-between">
             <img className="size-9 ml-7 mt-6" src={Facebook} alt="" />
             <div className="flex flex-col mr-4 mt-6">

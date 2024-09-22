@@ -7,7 +7,7 @@ import { IoCaretDown, IoCaretUp } from "react-icons/io5";
 
 const UserGrow = () => {
   return (
-    <div className="flex flex-col w-[54.5%] h-[450px] mr-8 mb-5">
+    <div className="flex flex-col w-[64.1%] h-[450px] mr-2 mb-5">
       <div className="flex items-center gap-5 cursor-pointer">
         <div className="flex items-center justify-center w-20 bg-[#fbfbf9] shadow-xl text-[14px] pb-3 border-t border-l border-r">
           Today

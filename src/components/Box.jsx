@@ -11,8 +11,8 @@ const Box = () => {
         <LuHome size={16} className="text-[#3f4d67]" />/
         <div className=" font-semibold text-[#111]">Dashboard</div>
       </div>
-      <div className="flex mt-4 gap-10">
-        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
+      <div className="flex mt-4 gap-8">
+        <div className="w-[33.3%] bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Daily Sales</p>
             <div className="flex items-center justify-between">
