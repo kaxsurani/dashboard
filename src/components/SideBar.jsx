@@ -1,15 +1,29 @@
+import { useState } from "react";
 import Arrow from "../Assets/arrowup.jpg";
 import data from "./data";
+import { CgMenuLeft } from "react-icons/cg";
 const SideBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="sidebar bg-[#3f4d67] lg:w-[14%] h-[100vh] pl-[1%] pt-[20px] md:w-[10%]">
       <div className="shortcut-links">
-        <div className="side-link flex gap-3 mb-9 cursor-pointer items-center">
-          <img className="size-10 rounded-xl" src={Arrow} alt="" />
-          <p className="text-[18px] text-[#fff]">Datta Able</p>
+        <div className="flex justify-between text-[#a9b7d0] text-[22px] pr-4 cursor-pointer">
+          <div className="side-link flex gap-3 mb-9 cursor-pointer items-center">
+            <img className="size-10 rounded-xl" src={Arrow} alt="" />
+            <p className="text-[18px] text-[#fff]">Datta Able</p>
+          </div>
+          <CgMenuLeft
+            onClick={() =>  {
+              setIsOpen(isOpen);
+            }}
+          />
         </div>
         {data.map((user) => (
-          <div key={user.id} className="side-link grid grid-cols-1 gap-4 cursor-pointer items-center">
+          <div
+            key={user.id}
+            className="side-link grid grid-cols-1 gap-4 cursor-pointer items-center"
+          >
             <div className="flex flex-col gap-4">
               <div className="text-[10px] font-bold text-[#e8edf7]">
                 {user.name}
