@@ -1,8 +1,10 @@
 .line{
     background: linear-gradient(-65deg, #1de9b6, #1dc4e9);
+    transition: width 0.3s ease;
 }
 .line1{
     background: linear-gradient(-135deg, #899fd4, #a389d4);
+    transition: width 0.3s ease;
 }
 body{
     background:#f8fcfc;

@@ -1,7 +1,6 @@
 import { LuHome } from "react-icons/lu";
-import { FaArrowUp } from "react-icons/fa6";
-import './Box.css'
-import { FaArrowDown } from "react-icons/fa";
+import { FaArrowUp, FaArrowDown } from "react-icons/fa";
+import './Box.css';
 
 const Box = () => {
   return (
@@ -9,10 +8,10 @@ const Box = () => {
       <h5 className="text-[20px]">Dashboard</h5>
       <div className="flex gap-3 items-center">
         <LuHome size={16} className="text-[#3f4d67]" />/
-        <div className=" font-semibold text-[#111]">Dashboard</div>
+        <div className="font-semibold text-[#111]">Dashboard</div>
       </div>
-      <div className="flex mt-4 gap-8">
-        <div className="w-[33.3%] bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
+      <div className="flex flex-col md:flex-row mt-4 gap-8">
+        <div className="w-full md:w-[33.3%] bg-[#fbfbf9] h-[174px] rounded-sm shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Daily Sales</p>
             <div className="flex items-center justify-between">
@@ -24,24 +23,24 @@ const Box = () => {
             <div className="line w-[50%] h-2"></div>
           </div>
         </div>
-        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
+        <div className="w-full md:w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Monthly Sales</p>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4 text-[26px] font-light">
-                <FaArrowDown size={27} className="text-[#f44236]" /> $2.942.32
+                <FaArrowDown size={27} className="text-[#f44236]" /> $2,942.32
               </div>
               <div className="text-[#888] mr-8">36%</div>
             </div>
-            <div className="line1 w-[36%] h-2"></div>
+            <div className="line w-[36%] h-2"></div>
           </div>
         </div>
-        <div className="w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
+        <div className="w-full md:w-[31%] bg-[#fbfbf9] h-[174px] rounded-lg shadow-xl transition-shadow">
           <div className="flex flex-col gap-5 ml-7 mt-7">
             <p>Yearly Sales</p>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4 text-[26px] font-light">
-                <FaArrowUp size={27} className="text-[#1de9b6]" /> $8.638.32
+                <FaArrowUp size={27} className="text-[#1de9b6]" /> $8,638.32
               </div>
               <div className="text-[#888] mr-8">70%</div>
             </div>
