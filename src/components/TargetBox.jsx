@@ -16,7 +16,7 @@ const TargetBox = () => {
       {users.map((user, index) => (
         <div key={index} className="w-full md:w-[33.3%] bg-[#fbfbf9] h-[214px] rounded-sm shadow-xl transition-shadow border mb-5">
           <div className="flex items-center justify-between">
-            <img className="size-9 ml-7 mt-6" src={Facebook} alt="" />
+            <img className="size-9 ml-7 mt-6" src={user.imag} alt="" />
             <div className="flex flex-col mr-4 mt-6">
               <h3 className="text-[#111] font-normal text-[28px] flex justify-end">{user.number1}</h3>
               <div className="flex">

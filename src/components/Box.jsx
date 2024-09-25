@@ -5,9 +5,9 @@ import './Box.css';
 const Box = () => {
 
   const users = [
-    { name: "Daily Sales", number1: "$249.95", number2: "50%", className:"line" },
-    { name: "Monthly Sales", number1: "$2,942.32", number2: "36%", className:"line1" },
-    { name: "Yearly Sales", number1: "$8,638.32", number2: "70%",className:"line" },
+    { name: "Daily Sales", number1: "$249.95", number2: "50%", className:"line", icon1:<FaArrowUp size={27} className="text-[#1de9b6]" /> },
+    { name: "Monthly Sales", number1: "$2,942.32", number2: "36%", className:"line1", icon1:<FaArrowDown size={27} className="text-[#f44236]" /> },
+    { name: "Yearly Sales", number1: "$8,638.32", number2: "70%",className:"line", icon1:<FaArrowUp size={27} className="text-[#1de9b6]" /> },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Box = () => {
             <p>{user.name}</p>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4 text-[26px] font-light">
-                <FaArrowUp size={27} className="text-[#1de9b6]" /> {user.number1}
+                 {user.icon1} {user.number1}
               </div>
               <div className="text-[#888] mr-8">{user.number2}</div>
             </div>

@@ -32,7 +32,7 @@ const user = () => {
                 <FaCircle className={`text-[10px] text-[#${user.status}]`} />
                 <div className="text-[#6c757d] text-[14px] font-normal ml-2">{user.date}</div>
               </div>
-              <div className="flex items-center space-x-2 mt-2 md:mt-0 md:flex-col md:gap-3 md:mr-5">
+              <div className="flex items-center space-x-2 mt-2 md:mt-0 md:gap-3 md:mr-5">
                 <button className="w-[57px] h-[26px] shadow-xl rounded-[15px] bg-[#987ec8] text-[12px] text-white">
                   Reject
                 </button>
