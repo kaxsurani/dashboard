@@ -3,7 +3,7 @@ import RatingBox from "./RatingBox";
 import SideBar from "./SideBar";
 import SideBox from "./SideBox";
 import TargetBox from "./TargetBox";
-import User from "./user";
+import User from "./User";
 import UserGrow from "./UserGrow";
 import Box from "./Box";
 import Navbar from "./Navbar";

@@ -5,7 +5,7 @@ import User4 from "../Assets/user4.png";
 import User5 from "../Assets/user5.png";
 import { FaCircle } from "react-icons/fa";
 
-const RecentUsers = () => {
+const user = () => {
   const users = [
     { name: "Isabella Christensen", img: User1, status: "1de9b6", date: "11 MAY 12:56" },
     { name: "Mathilde Andersen", img: User2, status: "f44236", date: "11 MAY 10:35" },
@@ -18,7 +18,7 @@ const RecentUsers = () => {
     <div className="mt-8">
       <div className=" w-full max-w-[100%] h-full bg-[#fbfbf9] rounded-sm shadow-xl transition-shadow border">
         <div className="ml-7 mt-6 text-[17px] font-normal">Recent Users</div>
-        <hr className="w-full mt-5" />
+        <hr className="w-full mt-5" /> 
         
         <div className="flex flex-col">
           {users.map((user, index) => (
@@ -48,4 +48,4 @@ const RecentUsers = () => {
   );
 };
 
-export default RecentUsers;
+export default user;
