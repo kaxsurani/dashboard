@@ -7,7 +7,7 @@ const SideBar = () => {
 
   return (
       <div
-        className={`top-0 h-full bg-[#3f4d67] w-[19%] shadow-lg transition-transform transform ${
+        className={`top-0 h-full bg-[#3f4d67] w-[16%] shadow-lg transition-transform transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } ${isOpen ? "sticky" : "fixed"} h-[100vh] pl-[1%] pt-[20px]`}
       >

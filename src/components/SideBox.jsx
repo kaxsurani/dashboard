@@ -14,7 +14,7 @@ const UpcomingEvent = () => {
         </div>
         <div className="flex justify-between">
           <div className="flex items-baseline ml-7">
-            <h1 className="text-[44px] font-extralight md:text-[36px] text-[30px]">
+            <h1 className="text-[44px] font-extralight md:text-[36px]">
               45
             </h1>
             <p className="text-[#6c757d] font-extralight text-sm md:text-base">

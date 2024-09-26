@@ -5,9 +5,9 @@ import Google from "../Assets/google.png";
 const TargetBox = () => {
 
   const users = [
-    { number1: "12,281", number2: "+7.2%", name1: "Total Likes", name2: "Target:", number3: "34,185", name3: "Duration:", number4: "350", imag: {Facebook} },
-    { number1: "11,200", number2: "+6.2%", name1: "Total Likes", name2: "Target:", number3: "35,098", name3: "Duration:", number4: "800", imag: {Twitter} },
-    { number1: "10,500", number2: "+5.9%", name1: "Total Likes", name2: "Target:", number3: "25,998", name3: "Duration:", number4: "900", imag: {Google} }
+    { number1: "12,281", number2: "+7.2%", name1: "Total Likes", name2: "Target:", number3: "34,185", name3: "Duration:", number4: "350", imag: Facebook },
+    { number1: "11,200", number2: "+6.2%", name1: "Total Likes", name2: "Target:", number3: "35,098", name3: "Duration:", number4: "800", imag: Twitter },
+    { number1: "10,500", number2: "+5.9%", name1: "Total Likes", name2: "Target:", number3: "25,998", name3: "Duration:", number4: "900", imag: Google }
   ];
 
   return (

@@ -15,12 +15,12 @@ const Home = () => {
         <Navbar />
 
         <Box />
-        <div className="flex flex-col md:flex-row md:gap-5">
+        <div className="flex flex-col md:flex-row md:gap-8">
           <User />
           <SideBox />
         </div>
         <TargetBox />
-        <div className="flex flex-col md:flex-row items-start gap-4">
+        <div className="flex flex-col md:flex-row items-start">
           <div className="w-full md:w-1/3">
             <RatingBox />
           </div>

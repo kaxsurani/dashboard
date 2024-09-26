@@ -15,7 +15,7 @@ const user = () => {
   ];
 
   return (
-    <div className="mt-8">
+    <div className="mt-8 w-[100%]">
       <div className=" w-full max-w-[100%] h-full bg-[#fbfbf9] rounded-sm shadow-xl transition-shadow border">
         <div className="ml-7 mt-6 text-[17px] font-normal">Recent Users</div>
         <hr className="w-full mt-5" /> 
