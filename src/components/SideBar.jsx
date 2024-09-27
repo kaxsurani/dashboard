@@ -11,9 +11,9 @@ const SideBar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } ${isOpen ? "sticky" : "fixed"} h-[100vh] pl-[1%] pt-[20px]`}
       >
-        <div className="shortcut-links">
+        <div className="">
           <div className="flex justify-between text-[#a9b7d0] text-[22px] pr-4 cursor-pointer">
-            <div className="side-link flex gap-3 mb-9 cursor-pointer items-center">
+            <div className="flex gap-3 mb-9 cursor-pointer items-center">
               <img className="size-10 rounded-xl" src={Arrow} alt="" />
               <p className="text-[18px] text-[#fff]">Datta Able</p>
             </div>
@@ -26,7 +26,7 @@ const SideBar = () => {
           {data.map((user) => (
             <div
               key={user.id}
-              className="side-link grid grid-cols-1 gap-4 cursor-pointer items-center"
+              className="grid grid-cols-1 gap-4 cursor-pointer items-center"
             >
               <div className="flex flex-col gap-4">
                 <div className="text-[10px] font-bold text-[#e8edf7]">

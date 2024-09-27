@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <div className="flex h-full w-full">
+    <div className="flex h-full w-full overflow-auto">
       <SideBar />
       <div className="w-full px-5">
         <Navbar />

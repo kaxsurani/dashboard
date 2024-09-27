@@ -20,7 +20,6 @@ const RatingBox = () => {
           </div>
         </div>
 
-        {/* Rating 5 */}
         <div className="flex items-center justify-between mt-4">
           <div className="w-full">
             <div className="flex flex-col gap-3 ml-7">
@@ -34,7 +33,6 @@ const RatingBox = () => {
           <h5 className="text-sm md:text-[16px] font-normal mr-5">384</h5>
         </div>
 
-        {/* Rating 4 */}
         <div className="flex items-center justify-between mt-4">
           <div className="w-full">
             <div className="flex flex-col gap-3 ml-7">
@@ -48,7 +46,6 @@ const RatingBox = () => {
           <h5 className="text-sm md:text-[16px] font-normal mr-5">145</h5>
         </div>
 
-        {/* Rating 3 */}
         <div className="flex items-center justify-between mt-4">
           <div className="w-full">
             <div className="flex flex-col gap-3 ml-7">
@@ -62,7 +59,6 @@ const RatingBox = () => {
           <h5 className="text-sm md:text-[16px] font-normal mr-5">24</h5>
         </div>
 
-        {/* Rating 2 */}
         <div className="flex items-center justify-between mt-4">
           <div className="w-full">
             <div className="flex flex-col gap-3 ml-7">
@@ -76,7 +72,6 @@ const RatingBox = () => {
           <h5 className="text-sm md:text-[16px] font-normal mr-5">1</h5>
         </div>
 
-        {/* Rating 1 */}
         <div className="flex items-center justify-between mt-4 pb-10">
           <div className="w-full">
             <div className="flex flex-col gap-3 ml-7">
