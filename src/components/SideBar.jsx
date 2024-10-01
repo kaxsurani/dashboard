@@ -62,6 +62,7 @@
 
 // export default SideBar;
 import React, { useState } from "react";
+import Arrow from "../Assets/arrowup.jpg";
 import data from "./data";
 import { CgMenuLeft } from "react-icons/cg";
 import { IoCloseSharp } from "react-icons/io5";
@@ -80,45 +81,63 @@ const Sidebar = () => {
       } top-0 h-full bg-[#3f4d67] shadow-lg transition-width duration-300 ${
         isOpen && "md:sticky"
       } ${isOpen ? "w-64" : "w-13"}
-      ${
-        !isOpen && "sticky"
-      }`}
+      ${!isOpen && "sticky"}`}
     >
-      <button
-        type="button"
-        onClick={toggleSidebar}
-        className="flex items-center justify-center p-2 text-[#a9b7d0]"
-      >
-        {isOpen ? <IoCloseSharp size={24} /> : <CgMenuLeft size={24} />}
-      </button>
-      <nav>
-        {data.map((item, index) => (
-          <div key={index} className="flex flex-col gap-4">
-            <div className="flex items-center p-2 text-[#a9b7d0]">
-              {isOpen && <span className="ml-2 text-[#e8edf7] text-[10px] font-semibold">{item.name}</span>}
-            </div>
-            {item.subNav && (
-              <div className={`${isOpen ? "pl-4" : "0px"}`}>
-                {item.subNav.map((subItem, subIndex) => (
-                  <div
-                    key={subIndex}
-                    className={`flex items-center text-[#a9b7d0] text-[14px] ${
-                      isOpen ? "" : "justify-center"
-                    } pb-5 p-2 text-white hover:text-[#1dc4e9]`}
-                  >
-                    {subItem.icon}
-                    {isOpen && (
-                      <span className="ml-2 text-[#a9b7d0] hover:text-[#1dc4e9]">
-                        {subItem.name}
-                      </span>
-                    )}
-                  </div>
-                ))}
-              </div>
+      <>
+        <div
+          className={`flex justify-between text-[#a9b7d0] text-[22px] pr-4 cursor-pointer`}
+        >
+          <div className="flex gap-3 mb-9 cursor-pointer items-center ml-4 mt-6">
+            {isOpen ? (
+              <img className="size-10 rounded-xl" src={Arrow} alt="" />
+            ) : !(
+              <img className="size-10 rounded-xl" src={Arrow} alt="" />
             )}
+            <p className="text-[18px] text-[#fff]">
+              {isOpen ? "Datta Able" : ""}
+            </p>
           </div>
-        ))}
-      </nav>
+          <button
+            type="button"
+            onClick={toggleSidebar}
+            className="flex items-center justify-center p-2 text-[#a9b7d0]"
+          >
+            {isOpen ? <IoCloseSharp size={24} /> : <CgMenuLeft size={24} />}
+          </button>
+        </div>
+        <nav>
+          {data.map((item, index) => (
+            <div key={index} className="flex flex-col gap-4">
+              <div className="flex items-center p-2 text-[#a9b7d0]">
+                {isOpen && (
+                  <span className="ml-2 text-[#e8edf7] text-[10px] font-semibold">
+                    {item.name}
+                  </span>
+                )}
+              </div>
+              {item.subNav && (
+                <div className={`${isOpen ? "pl-4" : "0px"}`}>
+                  {item.subNav.map((subItem, subIndex) => (
+                    <div
+                      key={subIndex}
+                      className={`flex items-center text-[#a9b7d0] text-[14px] ${
+                        isOpen ? "" : "justify-center"
+                      } pb-5 p-2 text-white hover:text-[#1dc4e9]`}
+                    >
+                      {subItem.icon}
+                      {isOpen && (
+                        <span className="ml-2 text-[#a9b7d0] hover:text-[#1dc4e9]">
+                          {subItem.name}
+                        </span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </nav>
+      </>
     </div>
   );
 };
